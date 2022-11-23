@@ -552,7 +552,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Button6",
-              "onClick": "{{navigateTo('Page2',{\n\ttest: 123\n}, 'SAME_WINDOW')}}",
+              "onClick": "{{navigateTo('Page2',{\n\ttest: 1234,\n\thi: 123\n},'SAME_WINDOW')}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "dynamicPropertyPathList": [],
               "displayName": "Button",
